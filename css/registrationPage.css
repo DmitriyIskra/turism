@@ -1,0 +1,201 @@
+
+
+.header {
+    padding-bottom: 0;
+
+    background-color: #E0EBFA;
+    background-image: none;
+}
+
+/* ________________________________________________________________________________________ */
+
+.main {
+    padding-top: 100px;
+    padding-bottom: 269px;
+
+    background-color: #E0EBFA;
+}
+
+.main__log-in {
+    display: flex;
+    justify-content: center;
+}
+
+.log-in__wr-log-in {
+    width: 627px;
+}
+
+.log-in__title-main {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.log-in__social-buttons {
+    display: flex;
+    margin-top: 102px;
+
+    justify-content: space-between;
+}
+
+.log-in__wr-facebook-button,
+ .log-in__wr-vkontakte-button {
+    height: 70px;
+    width: 300px;
+ }
+
+.log-in__facebook-button,
+ .log-in__vkontakte-button {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    border: 0;
+    background: #3276DD;
+    border-radius: 8px;
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+ }
+
+.log-in__facebook-icon {
+    height: 32px;
+    width: 30px;
+
+    background: no-repeat url(../svg/Facebook-F.svg);
+    background-size: 32px auto;
+}
+
+.log-in__vkontakte-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+
+    background: no-repeat url(../svg/vk-icons.svg);
+    background-size: auto 30px;
+}
+
+.log-in__facebook-text,
+ .log-in__vkontakte-text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+ }
+
+.log-in__wr-form {
+    margin-top: 77px;
+}
+
+.log-in__title-form {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.log-in__form {
+    margin-top: 50px;
+}
+
+.log-in__wr-data {
+    display: flex;
+
+
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.log-in__wr-login,
+ .log-in__wr-password {
+    height: 50px;
+    width: 96%;
+ }
+
+.log-in__login,
+ .log-in__password {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+
+    border: 0;
+    border-radius: 8px;
+ }
+
+.log-in__wr-buttons {
+    display: flex;
+    margin-top: 66px;
+
+    justify-content: space-between;
+}
+
+.log-in__wr-button-log-in,
+ .log-in__wr-button-registration {
+    width: 300px;
+    height: 70px;
+ }
+
+.log-in__button-log-in,
+ .log-in__button-registration {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+    border: 0;
+    background: #3276DD;
+    border-radius: 8px;
+
+    cursor: pointer;
+ }
+
+.log-in__wr-links {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.log-in__wr-link-forget,
+ .log-in__wr-accept-rulles {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    padding: 0 10px;
+
+    align-items: center;
+    justify-content: center;
+ }
+
+.log-in__link-forget,
+ .log-in__accept-rulles {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+ }
+
+.log-in__link-forget {
+    font-size: 18px;
+}
+
+.log-in__accept-rulles {
+    font-size: 14px;
+}

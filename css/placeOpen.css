@@ -1,0 +1,410 @@
+.header {
+    position: relative;
+
+    padding-bottom: 0;
+
+    background-color: #E0EBFA;
+    background-image: none;
+
+    z-index: 0;
+}
+
+.header__white-line {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+}
+
+.header__img {
+    height: 475px;
+    width: 93%;
+    margin: 0 auto;
+
+    background-color: #E0EBFA;
+    background-image: url(../img/place-open-header-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    z-index: 1;
+}
+/* ________________________________________________________________________________________ */
+
+
+/* ___________M A I N___________ */
+
+.main {
+    display: flex;
+    padding-bottom: 282px;
+    
+    background-color: #E0EBFA;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    width: 93%;
+    margin-top: 31px;
+
+    background: rgba(252, 252, 249, 0.28);
+    border-radius: 0px 16px 16px 0px;
+
+    justify-content: space-between;
+}
+
+.description__wr-img {
+    height: 490px;
+    width: 48.5%;
+    
+    background: no-repeat url(../img/white-mountain-main.png);
+    background-position: center;
+
+    border-radius: 16px;
+}
+
+/* .description__img {
+    width: 960px;    
+} */
+
+.description__wr-info {
+    width: 48.5%;
+}
+
+
+
+.description__title {
+    margin-top: 21px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+}
+    
+.description__text {
+    padding-top: 60px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+
+
+
+
+
+.description__wr-rating-head {
+    display: flex;
+    width: 60%;
+    margin-top: 100px;
+}
+
+.description__wr-rating-total {
+    display: flex;
+    width: 50%;
+
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+    color: #3276DD;
+
+    align-items: flex-end;
+}
+
+.description__wr-rating-stars-list {
+    display: flex;
+    width: 50%;
+
+    justify-content: space-between;
+}
+
+.description__rating-star-item {
+    width: 40px;
+    height: 40px;
+
+    background: no-repeat url(../svg/star-places-gold.svg);
+    background-size: 39px;
+    background-position: center;
+}
+
+
+.description__wr-rating-bar {
+    display: flex;
+    margin-top: 15px;
+
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description__wr-rating-bar-item {
+    display: flex;
+    align-items: center;
+}
+
+.description__rating-bar-text {
+    width: 29%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+}
+
+.description__rating-bar-line {
+    height: 8px;
+    width: 64%;
+    margin-left: 5px;
+
+    background: #FCFCF9;
+    border-radius: 8px;
+}
+
+.description__rating-line-blue {
+    height: 100%;
+    width: 84%;
+
+    background: #3276DD;
+    border-radius: 8px; 
+}
+
+.description__rating-total-item {
+    margin-left: 10px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+}
+
+
+
+/* C A R D S */
+
+.places {
+    width: 93%;
+    margin-top: 78px;
+}
+
+.places__cards {
+    display: flex;
+
+    gap: 27px;
+    overflow: hidden;
+}
+
+.places__wr-card-img {
+    width: 500px;
+    height: 358px;
+
+
+    border-radius: 16px;
+}
+
+.places__card-text {
+    margin-top: 37px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+/* E N D  C A R D S */
+
+
+
+/* F E E D B A C K */
+
+.feedback {
+    display: flex;
+    width: 93%;
+
+    flex-direction: column;
+}
+
+.feedback__button {
+    width: 260px;
+    height: 65px;
+    margin-top: 203px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+
+    border: 0;
+    background: #9D904A;
+    border-radius: 30px;
+
+    align-self: center;
+}
+
+.feedback__wr-cards {
+    display: flex;
+    margin-top: 50px;
+}
+
+.feedback__cards {
+    display: flex;
+    margin-left: 70px;
+
+    gap: 41px;
+    overflow: hidden;
+}
+
+
+.feedback__card-item {
+    display: flex;
+    min-width: 349px;
+    height: 434px;
+    padding: 25px 0 35px 21px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+
+    flex-direction: column;
+}
+
+.feedback__header-card {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback__card-foto {
+    width: 90px;
+    height: 90px;
+
+    background: no-repeat url(../img/foto-feedback.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.feedback__wr-name-balls {
+    padding-left: 25px;
+}
+
+.feedback__name {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.feedback__balls {
+    margin-top: 5px;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #3276DD;
+}
+
+.feedback__date-stars {
+    margin-right: 17px;
+}
+
+.feedback__date {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.feedback__stars {
+    display: flex;
+    margin-top: 5px;
+}
+
+.feedback__stars-item {
+    width: 17px;
+    height: 17px;
+
+    background: no-repeat url(../svg/star-feedback.svg);
+    background-position: center;
+}
+
+.feedback__text {
+    width: 92%;
+    margin-top: 29px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.feedback__wr-read-more {
+    margin-top: 27px;
+    margin-right: 17px;
+
+    text-align: right;
+}
+
+.feedback__read-more-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.7);
+
+    cursor: pointer;
+}
+
+
+
+.feedback__wr-arrow-next {
+    display: flex;
+
+    align-items: center;
+}
+
+.feedback__arrow-next {
+    width: 100px;
+    height: 100px;
+
+    background: no-repeat url(../svg/arrow-next-feedback.svg);
+    background-size: 100%;
+
+    cursor: pointer;
+}
+
+
+
+.feedback__leave-feedback {
+    margin-top: 85px;
+    margin-right: 120px;
+
+    align-self: flex-end;
+}
+
+.feedback__button-leave-feedback {
+    width: 260px;
+    height: 70px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+    border: 0;
+    background: #3276DD;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+/* E N D  F E E D B A C K */

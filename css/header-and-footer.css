@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+/* _____________HEADER___________ */
+
+.header {
+    padding-bottom: 236px;
+
+    background-color: #E5E5E5;
+    background: no-repeat url(../img/main-mountains.png);
+}
+
+.header__white-line {
+    display: flex;
+    padding: 33px 0 33px;
+
+    background-color: rgba(252, 252, 249, 0.28);
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    height: 38px;
+    width: 14%;
+
+    justify-content: flex-end;
+}
+
+.header__logo-link {
+    display: inline-block;
+    height: 100%;    
+    width: 200px;
+
+    background: no-repeat url(../img/LOGO.png);
+    background-position: left center;
+    background-size: 150px auto;
+}
+
+.header__wr-nav {
+    flex-grow: 1;
+}
+
+.header__nav {
+    display: flex;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.header__nav-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.011em;
+    color: #02070D;
+    text-align: center;
+}
+
+.header__wr-icons {
+    display: flex;
+    width: 14%;
+
+    gap: 38px;
+
+    --width-icons: 20px;
+}
+
+
+.header__icon-search,
+ .header__icon-heart,
+  .header__icon-user{
+    width: 30px;
+}
+
+.header__icon-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-link-search {
+    background:no-repeat url(../svg/Search.svg);
+    background-size: var(--width-icons);
+    background-position: center;
+    cursor: pointer;
+}
+
+.icon-link-heart {
+    background: no-repeat url(../svg/Vector.svg);
+    background-size: var(--width-icons);
+    background-position: center;
+    cursor: pointer;
+}
+
+.icon-link-user {
+    background: no-repeat url(../svg/user-log-in.svg);
+    background-size: var(--width-icons);
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.header__wr-preview {
+    display: flex;
+    width: 55%;
+    margin-top: 183px;
+
+    justify-content: flex-end;
+}
+
+.header__wr-preview-content {
+    flex-basis: 737px;
+}
+
+.header__title-preview {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -0.02em;
+    color: #FCFCF9;
+}
+
+.header__text-preview {
+    margin-top: 79px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: -0.02em;
+    color: #FCFCF9;
+}
+
+.header__button-preview {
+    width: 398px;
+    height: 72px;
+    margin-top: 120px;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+
+    background-color: #3276DD;
+    border: 0;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
+/* _______________F O O T E R_____________ */
+
+.footer {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 14px;
+
+    background: #E9F0FA;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__wr-content {
+    display: flex;
+    width: 75%;
+
+    justify-content: space-between;
+}
+
+.footer__title-address {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.footer__phone-number-link,
+ .footer__mail-link,
+  .footer__any-link {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer__wr-contacts {
+    margin-top: 20px;
+}
+
+.footer__phone-numbers {
+    display: flex;
+
+    gap: 20px;
+}
+
+.footer__mail,
+ .footer__any {
+    margin-top: 11px;
+}
+
+
+
+
+.footer__info-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer__info-faq,
+ .footer__info-partners,
+  .footer__info-conditions {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+.footer__info {
+  margin-top: 20px;
+}
+
+.footer__info-partners,
+  .footer__info-conditions {
+    margin-top: 11px;
+  }
+
+.footer__wr-copyright {
+    margin-top: 20px;
+}
+
+.footer__copyright {
+    display: flex;
+    padding-top: 12px;
+
+    gap: 4px;
+}

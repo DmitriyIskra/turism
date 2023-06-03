@@ -1,0 +1,371 @@
+
+.header {
+    padding-bottom: 0;
+
+    background-color: #E0EBFA;
+    background-image: none;
+}
+
+/* ________________________________________________________________________________________ */
+
+
+/* ___________M A I N___________ */
+ 
+.main {
+    display: flex;
+    padding-top: 163px;
+    padding-bottom: 357px;
+
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #E0EBFA;
+}
+
+.main__wr-content-places {
+    width: 93%;
+}
+
+/* FILTER */
+.filter {
+    display: flex;
+
+    gap: 37px;
+    align-items: center;
+}
+
+.filter-out-sizes {
+    margin-left: 35px;
+}
+
+.filter__icon {
+    width: 37px;
+    height: 31px;
+
+    background: no-repeat url(../img/filter.svg);
+    background-position: center;
+}
+
+.filter__wr-fields {
+    display: flex;
+
+    gap: 21px;
+}
+
+.filter__wr-field {
+    width: 260px;
+    height: 58px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.filter__field-select {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+
+    border: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    background-image: url(../svg/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    cursor: pointer;
+
+    appearance: none;
+}
+
+
+.filter__wr-field-date {
+    position:  relative;
+}
+
+.filter__field-date-mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    background-image: url(../svg/calendar.svg);
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+.filter__field-date {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 80%;
+    right: 0;
+
+    border: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    content: "";
+    cursor: pointer;
+
+    opacity: 0;
+}
+
+.filter__field-date::-webkit-calendar-picker-indicator {
+    opacity: 1;
+    height: 30px;
+    width: 100%;
+
+    padding-right: 8px;
+}
+
+
+/* END FILTER */
+
+/* popularest */
+
+.popularest {
+    display: flex;
+
+    gap: 96px;
+}
+
+.popularest-out-sizes {
+    margin-top: 93px;
+}
+
+.popularest-wr-slider {
+    position: relative;
+
+    width: 50%;
+}
+
+.popularest__img {
+    width: 100%;
+    height: auto;
+}
+
+.popularest__slider-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 34px;
+
+    display: flex;
+    width: 150px;
+    height: 20px;
+
+    justify-content: space-between;
+    transform: translateX(-50%);
+}
+
+.popularesr__nav-item {
+    width: 20px;
+
+    background: rgba(224, 235, 250, 0.5);
+
+    cursor: pointer;
+}
+
+.nav-item_active {
+    background: rgba(224, 235, 250, 1);
+}
+
+
+.popularest__wr-text {
+    width: 50%;
+}
+
+.popularest__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: -0.02em;
+    color: #02070D;
+}
+
+.popularest__text {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: #02070D;
+}
+
+/* END popularest */
+
+.cards-out-sizes {
+    margin-top: 120px;
+}
+
+
+.cards__places-cards {
+    display: flex;
+    margin-top: 0;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.cards__places-card {
+    display: flex;
+    width: 540px;
+    height: 717px;
+    border-radius: 16px;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.cards__places-card-link {
+    display: inline-block;
+    height: 100%;
+}
+
+.cards__wr-places-card {
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.places-card-arkami {
+    background: no-repeat url(../img/road.png);
+    background-position: center;
+}
+
+.places-card-deer-streams {
+    background: no-repeat url(../img/card2.png);
+    background-position: center;
+}
+
+.places-card-zenden {
+    background: no-repeat url(../img/zenden.png);
+    background-position: center;
+}
+
+.places-card-white-mountain {
+    background: no-repeat url(../img/mountain-white.png);
+    background-position: center;
+}
+
+
+.cards__wr-feedback {
+    display: flex;
+    height: 55px;
+    margin-top: 23px;
+    margin-left: 18px;
+    margin-right: 30px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards__favourites {
+    width: 62px;
+    height: 100%;
+
+    background: no-repeat url(../svg/heart-gold.svg);
+    background-position: center;
+}
+
+.cards__wr-stars {
+    width: 196px;
+    height: 40px;
+}
+
+.cards__stars {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-between;
+
+}
+
+.cards__star {
+    width: 40px;
+
+    background: no-repeat url(../svg/star.svg);
+}
+
+
+.cards__places-card-wr-text {
+    background: no-repeat url(../img/fon-text-card.png);
+    background-position: top right -15px;
+}
+
+.cards__places-card-header {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__places-card-title {
+    padding-top: 29px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    /* text-align: center; */
+    letter-spacing: -0.02em;
+}
+
+.cards__places-card-text {
+    width: 510px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+}
+
+
+.nav-places {
+    display: flex;
+
+    justify-content: center;
+}
+
+.nav-places-out-sizes {
+    margin-top: 80px;
+}
+
+.nav-places__nav {
+    display: flex;
+
+    gap: 12px;
+}
+
+.nav-places__nav-item {
+    width: 40px;
+    height: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.75;
+
+    border: 4px solid #3276DD;
+
+    cursor: pointer;
+}
+
+.nav-places__nav-item-next {
+    width: 174px;
+
+    line-height: 3.2;
+
+    border: 0;
+}
